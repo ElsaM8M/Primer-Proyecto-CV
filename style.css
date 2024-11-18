@@ -60,13 +60,12 @@ aside {
 
 
 .subtitle{
-text-align: center;
-font-family: "Nunito Sans", sans-serif;
+    text-align: center;
+    font-family: "Nunito Sans", sans-serif;
 }
 
-.buttom{
+.bottom{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: auto 100px auto;
-    }
+    column-gap: 20px;
 }
