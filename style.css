@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
+body{
+    background-color:#F68ABD;
+    font-family: "Sour Gummy", sans-serif;
+}
+
+
+.little-image{
+     float: left;
+    width: 30px;
+    height: 30px;
+}
+
+
+ul{
+    list-style: square;
+    text-align: left;
+}
+
+.nombre{
+    font-family: "Iceberg", serif;
+    text-align: center;
+}
+
+
+h2{
+    text-align: center;
+}
+
+
+a{
+    color: palevioletred;
+    text-decoration: wavy;
+    font-style: italic;
+}
+
+
+main {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    max-width: 1000px;
+    margin-inline: auto;
+    background-color: #FDECF4;
+    border-radius: 5px;
+}
+
+aside {
+    display: flex;
+    flex-direction: column;
+    border: 3px solid black;
+    margin: 20px;
+    padding: 10px;
+}
+
+
+#imgyo {
+    position: relative;
+    right: -30px;
+}
+
+
+.subtitle{
+text-align: center;
+font-family: "Nunito Sans", sans-serif;
+}
+
+.buttom{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto 100px auto;
+    }
+}
