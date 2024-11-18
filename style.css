@@ -6,10 +6,14 @@ body{
 
 
 .little-image{
-     float: left;
+    float: left;
     width: 30px;
     height: 30px;
+    display: inline-block;
+    margin-right: 5%;
 }
+
+
 
 
 ul{
@@ -68,4 +72,12 @@ aside {
     display: grid;
     grid-template-columns: 1fr 1fr;
     column-gap: 20px;
+}
+
+.nivel1{
+    text-align: center;
+}
+
+.nivel2{
+    text-align: center;
 }
